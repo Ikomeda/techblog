@@ -1,0 +1,16 @@
+{{!-- display post information by user  
+        post_title: {
+            type: DataTypes.STRING,
+            allowNull: false
+        },
+        post_content: {
+            type: DataTypes.TEXT,
+            allowNull: false,
+        },
+        user_id: {
+            type: DataTypes.INTEGER,
+            references: {
+                model: "user",
+                key: "id"
+            },
+        },--}}
